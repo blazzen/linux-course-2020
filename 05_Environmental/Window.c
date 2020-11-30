@@ -20,8 +20,6 @@
 
 void match(char* inA, char* inB, WINDOW* winO)
 {
-    wprintw(winO, " PCRE2_UCP: %d\n", PCRE2_UCP_CUSTOM);
-    wprintw(winO, " WITHOUT_UTF: %d\n", WITHOUT_UTF);
     wprintw(winO, " Entered: %s %s\n", inA, inB);
     pcre2_code *re;
     PCRE2_SPTR pattern;     /* PCRE2_SPTR is a pointer to unsigned code units of */
