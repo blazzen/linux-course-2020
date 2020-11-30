@@ -12,6 +12,8 @@ if (NOT PCRE_LIB)
     message(FATAL_ERROR "pcre2-8 library not found")
 endif()
 
+add_custom_target(allclean COMMAND rm -rf build CMakeCache.txt CMakeFiles cmake_install.cmake Makefile RegexWindow)
+
 option(without-UTF "Don't use UTF" OFF)
 if(without-UTF)
     add_definitions(-DWITHOUT_UTF=1)
