@@ -1,0 +1,41 @@
+# Sample program guessing the number
+# Copyright (C) Pavel Zhukov (blazzen)
+# This file is distributed under the same license as the linux-course-2020 package.
+# Pavel Zhukov <s02150297@stud.cs.msu.ru>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-28 01:50+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: RU <s02150297@stud.cs.msu.ru>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: prog.c:14
+#, c-format
+msgid "Please, think of a number from 1 to 100\n"
+msgstr "Пожалуйста, придумайте число от 1 до 100\n"
+
+#: prog.c:20
+#, c-format
+msgid "Is your number greater than %hhu? (y - yes, n - no)\n"
+msgstr "Ваше число больше %hhu? (д - да, н - нет)\n"
+
+#: prog.c:23 prog.c:27
+msgid "y"
+msgstr "д"
+
+#: prog.c:23
+msgid "n"
+msgstr "н"
+
+#: prog.c:34
+#, c-format
+msgid "Your number is %hhu\n"
+msgstr "Ваше число %hhu\n"
