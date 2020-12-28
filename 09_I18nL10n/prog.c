@@ -8,8 +8,8 @@
 
 int main(void) {
     setlocale (LC_ALL, "");
-	bindtextdomain ("prog", LOCALE_PATH);
-	textdomain("prog");
+    bindtextdomain ("prog", LOCALE_PATH);
+    textdomain("prog");
 
     printf(_("Please, think of a number from 1 to 100\n"));
 
